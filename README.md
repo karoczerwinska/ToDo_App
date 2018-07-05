@@ -11,3 +11,7 @@ Simple ToDo App.
 - HTML
 - CSS
 - JavaScript
+
+## Preview
+
+![alt txt](images/preview.png)
