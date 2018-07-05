@@ -1,6 +1,6 @@
 # ToDo App
 
-The application displays a list of tasks to be performed. Tasks are divided into done and to do. Done tasks are crossed out, colored and the checkbox on the left is marked. To-do tasks have are an unchecked checkbox on the left.
+The application displays a list of tasks to be performed. Tasks are divided into done and to-do. Done tasks are crossed out, colored and the checkbox on the left is marked. To-do tasks have an unchecked checkbox on the left.
 
 The row with the possibility of adding a new task is always displayed under the task list. A new task is always a to-do task.
 
