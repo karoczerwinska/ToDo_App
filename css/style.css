@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8f0f5;
+    font-family: 'Lato', sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+table,
+td {
+    border-bottom: 1px solid #c3d6e2;
+    border-left: 1px solid #9da1a7;
+    border-right: 1px solid #efcbcf;
+}
+
+td:nth-child(4) {
+    border-right: 1px solid #9da1a7;
+}
+
+thead {
+    background-color: #2d3542;
+    color: #e8f0f5;
+    font-size: 20px;
+    text-align: left;
+}
+
+th {
+    height: 55px;
+    border: 1px solid #9da1a7;
+}
+
+th:nth-of-type(1),
+td:nth-of-type(1) {
+    width: 55px;
+}
+
+th:nth-of-type(2),
+td:nth-of-type(2) {
+    width: 5px;
+}
+
+th:nth-of-type(3),
+td:nth-of-type(3) {
+    border-right: none;
+}
+
+th:nth-of-type(4),
+td:nth-of-type(4) {
+    border-left: none;
+}
+
+tbody {
+    background-color: white;
+    color: #2d3542;
+}
+
+tr {
+    height: 55px;
+}
+
+p,
+input {
+    margin: 0 10px;
+}
+
+input {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #2e3641;
+}
+
+span {
+    display: table;
+    margin: 0 auto;
+}
+
+i {
+    color: #e8f0f5;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    margin: 5px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+input[type=checkbox]:after {
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #e8f0f5;
+    margin-left: 13px;
+}
+
+input[type=checkbox]:checked:after {
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    color: limegreen;
+}
+
+.alert {
+    padding: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    margin-bottom: 15px;
+    width: 350px;
+    display: none;
+}
+
+.close-button {
+    float: right;
+    margin-left: 15px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.done-task {
+    text-decoration: line-through;
+    color: #9eb2c0;
+}
+
+.done-trash {
+    opacity: 0.5;
+}
